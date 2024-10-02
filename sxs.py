@@ -6,10 +6,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7711940293:AAEmfNhDtt-Op-rE-ky1jyhN7xVc9LkexWA')
+bot = telebot.TeleBot('6880811064:AAEZrIni3P5lzciPpmcruhM8wSwTlEYU1GM')
 
 # Admin user IDs
-admin_id = {"1380483610"}
+admin_id = {"7334699129"}
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -242,7 +242,7 @@ def handle_attack(message):
         else:
             response = "Usage :- /attack <target> <port> <time>"  # Updated command syntax
     else:
-        response = " ❌ Access expired or unauthorized buy - @SharpX72"
+        response = " ❌ Access expired or unauthorized buy - @Najishking"
 
     bot.reply_to(message, response)
 
